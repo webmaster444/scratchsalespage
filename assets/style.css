@@ -13,3 +13,30 @@
 .collightgreen{
 	color:#7ba200;	
 }
+
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.presgavidtop{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.sub_wrapper{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.backbrown{
+	background:#5b4c27;
+}
+
+.coldarkbrown{
+	color:#412102;
+}
+
+ul.xlist{
+	list-style-image: url('imgs/x-bullet.png');
+}
