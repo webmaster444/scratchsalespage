@@ -20,8 +20,10 @@ img{
 .wrapper{
 	max-width: 900px;
 	margin: 0 auto;
-	padding:30px 30px;
-	box-shadow: 3px 0px 3px 3px #ddd, -3px 3px 3px 3px #ddd;
+	padding:0px 30px 30px 60px;
+    box-shadow: 3px 0px 3px -2px #ddd, -3px 3px 3px 0px #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 .presgavidtop{
@@ -42,6 +44,9 @@ img{
 	color:#412102;
 }
 
+.backlightbrown{
+	background:#fbefcf;
+}
 div.bullet_wrapper{
 	display:flex;
 	align-items: center;
@@ -59,4 +64,41 @@ ul.xlist{
 div.atop_wrapper{
 	display: flex;
 	align-items: flex-start;
+}
+
+.testi_block:nth-child(2n+1){
+	background: url('imgs/testi_green_back.png') left top no-repeat;
+	background-size: cover;	
+}
+
+.testi_block:nth-child(2n){
+	background: url('imgs/testi_2_lightgreen_back.png') left top no-repeat;
+	background-size: cover;
+}
+
+.faq_back:nth-child(2n+1){
+	background:#d8e5ab;
+}
+
+.faq_back:nth-child(2n){
+	background:#eff7d6;
+}
+
+#singup_btn{
+	background: #7ea80f;
+	padding:20px 120px;
+	border-bottom: 10px solid #4f7c04;
+	border-radius:4px;
+	color:white;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	line-height: 26px;
+	display: inline-block;
+}
+
+.full_width{
+	margin-left: -60px;
+	margin-right: -30px;	
 }
