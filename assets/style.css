@@ -108,6 +108,11 @@ ul.xlist{
 	list-style-image: url('imgs/x-bullet.png');
 }
 
+.bullet_wrapper span{
+	padding-left: 20px;
+	font-size: 16px;
+	display: inline-block;
+}
 .bullet_wrapper p{
 	padding-left: 20px;
 	font-size: 20px;
@@ -132,7 +137,11 @@ div.atop_wrapper{
 	background: url('imgs/testi_2_lightgreen_back.png') left top no-repeat;
 	background-size: cover;
 }
-
+.testi_block{
+	margin-bottom: 40px;
+	padding:115px 40px;
+	position: relative;
+}
 .faq_back:nth-child(2n+1){
 	background:#d8e5ab;
 }
@@ -229,4 +238,15 @@ hr{
 
 .month_wrapper p{
 	font-size: 15px;
+}
+
+.peers_say_section{
+	padding-bottom: 40px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 30px;
+}
+
+.testi_block img{
+	position: absolute;
+	right: 30px;
 }
