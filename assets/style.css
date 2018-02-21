@@ -1,8 +1,56 @@
+@font-face {
+    font-family: MyriadProSemiBold;
+    src: url('fonts/Myriad Pro Semibold.ttf');
+}
+@font-face {
+    font-family: MyriadProRegular;
+    src: url('fonts/Myriad Pro Regular.ttf');
+}
+@font-face {
+    font-family: MyriadProBold;
+    src: url('fonts/Myriad Pro Bold.ttf');
+}
+
+h3{
+	font-size:26px;
+	font-family: MyriadProBold;
+	margin-bottom: 40px;
+}
+
+h4{
+	font-size:24px;
+	font-family: MyriadProSemiBold;
+}
+
+h5{
+	font-size:22px;
+	font-family: "Times New Roman", Times, serif;
+}
+p{
+	margin-bottom: 23px;
+	font-size: 20px;
+	font-family: MyriadProRegular;
+}
+p strong{
+	font-family: MyriadProSemiBold;	
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
 img{
 	max-width: 100%;
 }
 .backgreen{
 	background:#40520A;
+}
+
+.backgreen1{
+	background:#4b6511;
+}
+#note_section{
+	padding:30px 0;
 }
 
 .colgreen{
@@ -36,6 +84,10 @@ img{
 	margin: 0 auto;
 }
 
+.sub680_wrapper{
+	max-width:680px;
+	margin: 0 auto;
+}
 .backbrown{
 	background:#5b4c27;
 }
@@ -50,7 +102,7 @@ img{
 div.bullet_wrapper{
 	display:flex;
 	align-items: center;
-	margin:10px 0;
+	margin:15px 0;
 }
 ul.xlist{
 	list-style-image: url('imgs/x-bullet.png');
@@ -59,6 +111,7 @@ ul.xlist{
 .bullet_wrapper p{
 	padding-left: 20px;
 	font-size: 20px;
+	margin-bottom: 0;
 }
 
 div.atop_wrapper{
@@ -66,6 +119,10 @@ div.atop_wrapper{
 	align-items: flex-start;
 }
 
+.atop_wrapper p{
+	padding-left: 20px;
+	font-size: 20px;
+}
 .testi_block:nth-child(2n+1){
 	background: url('imgs/testi_green_back.png') left top no-repeat;
 	background-size: cover;	
@@ -101,4 +158,75 @@ div.atop_wrapper{
 .full_width{
 	margin-left: -60px;
 	margin-right: -30px;	
+}
+
+.mt-70{
+	margin-top: 70px;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.colred{
+	color:#d40000;
+}
+
+.colwhite{
+	color:#fff;
+}
+
+#who_am_i_text{
+	padding:60px 45px 50px;
+}
+
+.colyellow{
+	color:#ffc537;
+}
+
+.video_course_wrapper {	
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.vc_white_back{
+	background: white;
+	padding:15px 10px;
+	margin-bottom: 50px;
+}
+
+.vc_content{
+	border:4px solid #40520A;
+	padding:50px 30px;
+}
+
+h2{
+	font-family: "Times New Roman", Times, serif;	
+	font-weight: bold;
+}
+
+.vc_content_header.atop_wrapper p{
+	padding-left: 0;
+}
+
+.vc_content_header img{
+	margin-left: -40px;
+	margin-right: 30px;
+}
+
+hr{
+	max-width: 440px;
+	border-top: 1px solid #37490e;
+}
+
+.month_wrapper{
+	border:1px solid #aaa;
+}
+
+.month_wrapper p{
+	font-size: 15px;
 }
