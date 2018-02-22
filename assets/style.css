@@ -146,32 +146,32 @@ div.atop_wrapper{
 	padding:115px 40px;
 	position: relative;
 }
-#video_test_wrapper .sub_wrapper:nth-child(2n+1){
+#video_test_wrapper .sub680_wrapper:nth-child(2n+1){
 	background:#cadc8c;
 	border:2px solid #d4e0a9;
 }
-#video_test_wrapper .sub_wrapper span{
+#video_test_wrapper .sub680_wrapper span{
 	padding-top: 15px;
 }
-#video_test_wrapper .sub_wrapper .text-right span{
+#video_test_wrapper .sub680_wrapper .text-right span{
 	font-family: MyriadProSemiBold;
 }
 
-#video_test_wrapper .sub_wrapper .text-right span + br + span{
+#video_test_wrapper .sub680_wrapper .text-right span + br + span{
 	font-family: MyriadProRegular;
 	color:#808080;
 }
 
-#video_test_wrapper .sub_wrapper .presgavidtop{
+#video_test_wrapper .sub680_wrapper .presgavidtop{
 	margin-bottom:15px;
 }
 
-#video_test_wrapper .sub_wrapper{
+#video_test_wrapper .sub680_wrapper{
 	margin-bottom: 50px;
 	padding-top:15px;
 	padding-bottom: 15px;
 }
-#video_test_wrapper .sub_wrapper:nth-child(2n){
+#video_test_wrapper .sub680_wrapper:nth-child(2n){
 	background:#eff7d6;
 	border:2px solid #e5edcd;
 }
