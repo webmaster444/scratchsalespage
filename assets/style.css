@@ -352,8 +352,37 @@ hr{
 #monthly_course_section{
 	padding: 0 30px;
 }
+#x_section,#tick_section{
+	position: relative;
+}
 
+#grey_x_img,#grey_tick_img{
+	position: absolute;
+	transform:translateY(-50%);
+	top: 50%;
+	left: 0;
+}
+#red_x_img,#blue_tick_img{
+	position: absolute;
+	transform:translateY(-70%);
+	top: 50%;
+	right: 0;	
+}
+#who_am_i_img{
+	padding-top:50px;
+}
+@media screen and (max-width:996px){
+	#grey_x_img,#grey_tick_img{
+		max-width: 157px;
+	}
+	#red_x_img,#blue_tick_img{
+		max-width: 130px;
+	}	
+}
 @media screen and (max-width: 850px){
+	#red_x_img,#grey_x_img,#grey_tick_img,#blue_tick_img{
+		display: none;
+	}
 	.wrapper{				
 		padding:0px 30px 50px;	    
 	}
@@ -395,4 +424,72 @@ hr{
 	#village_section h3{
 		font-size: 18px;
 	}
+}
+
+@media screen and (max-width: 768px){
+	#who_am_i_img{
+		padding-top:0px;
+	}
+	#who_am_i_section .col-sm-4{
+		text-align: center;
+	}
+	#singup_btn{
+		padding:20px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.atop_wrapper p{
+		font-size: 16px;
+	}
+	#who_am_i_text{
+	    padding: 15px 15px 30px;
+	}
+
+	h1{
+		font-size:26px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	h3{
+		font-size: 22px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h5{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 420px){
+	#adam_section .bullet_wrapper span{
+		padding-left: 0;
+		font-size:14px;	
+		margin-top: 10px;
+	}
+	#adam_section .bullet_wrapper{
+		display: block;
+		text-align: center;
+	}
+.vc_content .atop_wrapper{
+	display: block;
+	text-align: center;
+}
+.vc_content_header img{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.peers_say_section .bullet_wrapper{
+	display: block;
+	text-align: center;
+}
+#village_section #master_logo{
+	max-width: 150px;
+	bottom: 10px;
+}
+.wrapper{
+	padding-bottom: 20px;
+}
 }
