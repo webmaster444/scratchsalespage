@@ -492,4 +492,8 @@ hr{
 .wrapper{
 	padding-bottom: 20px;
 }
+
+.vc_content{
+	padding:20px 15px;
+}
 }
