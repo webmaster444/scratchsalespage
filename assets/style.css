@@ -87,6 +87,7 @@ img{
 .sub850_wrapper{
 	max-width: 850px;
 	margin: 0 auto;
+	padding:15px;
 }
 .sub680_wrapper{
 	max-width:680px;
@@ -209,7 +210,7 @@ div.atop_wrapper{
 
 .full_width{
 	margin-left: -157px;
-	margin-right: -157px;	
+	margin-right: -157px;		
 }
 
 .mt-70{
@@ -378,5 +379,20 @@ hr{
 
 	.pb-70{
 		padding-bottom: 40px;
+	}
+
+	.peers_say_section .bullet_wrapper img{
+		max-width: 200px;
+	}
+
+	.vc_content_header img{
+		max-width: 180px;
+	}
+	#village_section #master_logo{
+		max-width: 200px;
+	}
+
+	#village_section h3{
+		font-size: 18px;
 	}
 }
