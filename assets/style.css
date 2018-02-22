@@ -84,6 +84,10 @@ img{
 	margin: 0 auto;
 }
 
+.sub850_wrapper{
+	max-width: 850px;
+	margin: 0 auto;
+}
 .sub680_wrapper{
 	max-width:680px;
 	margin: 0 auto;
